@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="styles.min.css" />
   </head>
-  <body class="bg-clr_neutral_200">
+  <body class="bg-clr_neutral_body">
     <main class="main">
       <div class="container page">
         <header class="notifications">
@@ -113,7 +113,7 @@
             </div>
           </div>
           <!-- Kimberly Smith // Card 5 -->
-          <div class="card_container">
+          <div class="card_container_grid">
             <div class="card_img_container">
               <img
                 class="card_img"
@@ -129,6 +129,11 @@
 
               <p class="time">1 week ago</p>
             </div>
+            <img
+              class="chess_img"
+              src="data:image/webp;base64,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"
+              alt=""
+            />
           </div>
           <!-- Nathan Peterson // Card 6 -->
           <div class="card_container">
@@ -173,7 +178,22 @@
         </div>
       </div>
     </main>
+    <!-- Notifications 3 Mark all as read Mark Webber reacted to your recent post My
+    first tournament today! 1m ago Angela Gray followed you 5m ago Jacob
+    Thompson has joined your group Chess Club 1 day ago Rizky Hasanuddin sent
+    you a private message 5 days ago Hello, thanks for setting up the Chess
+    Club. I've been a member for a few weeks now and I'm already having lots of
+    fun and improving my game. Kimberly Smith commented on your picture 1 week
+    ago Nathan Peterson reacted to your recent post 5 end-game strategies to
+    increase your win rate 2 weeks ago Anna Kim left the group Chess Club 2
+    weeks ago -->
 
+    <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
     <script src="script.js"></script>
   </body>
 </html>
